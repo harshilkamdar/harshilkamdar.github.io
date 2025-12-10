@@ -4,21 +4,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Notes from Harshil Kamdar</title>
- <link href="http://harshilkamdar.github.io/notes/atom.xml" rel="self"/>
- <link href="http://harshilkamdar.github.io/notes/"/>
+ <link href="https://harshilkamdar.github.io/notes/atom.xml" rel="self"/>
+ <link href="https://harshilkamdar.github.io/notes/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://harshilkamdar.github.io/notes/</id>
+ <id>https://harshilkamdar.github.io/notes/</id>
  <author>
    <name>Harshil Kamdar</name>
-   <email>hkamdar2@illinois.edu</email>
+   <email>harshilmkamdar@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://harshilkamdar.github.io {{ post.url }}"/>
+   <link href="https://harshilkamdar.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://harshilkamdar.github.io/notes{{ post.id }}</id>
+   <id>https://harshilkamdar.github.io/notes{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
