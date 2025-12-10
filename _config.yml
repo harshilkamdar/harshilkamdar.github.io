@@ -2,5 +2,5 @@ github:
   repo: harshilkamdar/harshilkamdar.github.io
   branch: master
 markdown: kramdown
-gems:
+plugins:
   - jekyll-sitemap
