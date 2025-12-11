@@ -1,0 +1,112 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP");
+
+/* Change code font */
+.CodeMirror pre {
+    font-family: 'Input Mono Narrow', 'Source Code Pro', Consolas, monocco, monospace, 'Noto Sans JP';
+}
+
+div.input_area {
+    border-color: rgba(0,0,0,0.10);
+}
+
+
+div.text_cell_render {
+    font-family: "Noto Sans JP";
+    font-size: 12pt;
+    line-height: 145%; /* added for some line spacing of text. */
+}
+
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+    font-family: 'Noto Sans JP';
+}
+
+.rendered_html pre,
+.rendered_html code {
+    font-size: medium;
+}
+
+.rendered_html ol {
+    list-style:decimal;
+    margin: 1em 2em;
+}
+
+.prompt.input_prompt {
+    color: rgba(0,0,0,0.5);
+}
+
+div.output_scroll {
+    -webkit-box-shadow: inset 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.1);
+    border-radious: 2px;
+}
+
+#menubar .navbar-inner {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    font-family: Noto Sans JP;
+    font-weight: 400;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+}
+
+div#notebook_panel {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-top: none;
+}
+
+div#notebook {
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+/* 
+    This is a lazy fix, we *should* fix the 
+    background for each Bootstrap button type
+*/
+#site * .btn {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+span.ansiblack {color: #073642;}
+span.ansiblue {color: #2aa198;}
+span.ansigray {color: #839496;}
+span.ansigreen {color: #859900;}
+span.ansipurple {color: #6c71c4;}
+span.ansired {color: #dc322f;}
+span.ansiyellow {color: #b58900;}
+
+div.output_stderr {background-color: #dc322f;}
+div.output_stderr pre {color: #eee8d5;}
+
+.cm-s-ipython.CodeMirror {background: #FFFFFF; color: #073642;}
+.cm-s-ipython div.CodeMirror-selected {background: #eee8d5 !important;}
+.cm-s-ipython .CodeMirror-gutters {background: #fdf6e3; border-right: 0px;}
+.cm-s-ipython .CodeMirror-linenumber {color: #839496;}
+.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #657b83 !important;}
+
+
+.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #073642 !important;}
+th, td { 
+      font-size: 18px;
+      border-collapse: collapse;
+      border-width:3px;
+    }
+    </style>

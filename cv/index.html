@@ -1,0 +1,129 @@
+---
+layout: default
+title: CV
+home: passive
+cv: active
+projects: passive
+notes: passive
+contact: passive
+---
+
+<div class="cv-container">
+    <div class="cv-header">
+        <h1>Curriculum Vitae</h1>
+        <p class="lead">Always up-to-date version of my professional background</p>
+    </div>
+
+    <!-- Google Docs Embed - Replace with your document link -->
+    <div class="cv-embed-container">
+        <!-- PLACEHOLDER: Replace src with your Google Docs embed URL -->
+        <iframe id="cv-embed" 
+                src="about:blank" 
+                frameborder="0" 
+                allowfullscreen>
+        </iframe>
+        <div class="loading-message">
+            <p>Loading CV... <br><small>If the CV doesn't load, please use the download link below.</small></p>
+        </div>
+    </div>
+
+    <!-- Download Options -->
+    <div class="cv-actions">
+        <div class="btn-group" role="group">
+            <a href="/files/cv.pdf" class="btn btn-primary" target="_blank" title="Download CV as PDF">
+                <i class="glyphicon glyphicon-download"></i> Download PDF
+            </a>
+            <a href="#" class="btn btn-default" onclick="window.print(); return false;" title="Print this page">
+                <i class="glyphicon glyphicon-print"></i> Print
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+.cv-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cv-embed-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    min-height: 600px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #f9f9f9;
+}
+
+#cv-embed {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: white;
+}
+
+.loading-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+.cv-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cv-actions .btn {
+    margin: 0 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .cv-embed-container {
+        height: 70vh;
+        min-height: 500px;
+    }
+    
+    .cv-header h1 {
+        font-size: 2em;
+    }
+    
+    .cv-actions .btn {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .btn-group {
+        display: block;
+    }
+}
+
+/* Print styles */
+@media print {
+    .cv-actions {
+        display: none;
+    }
+    
+    .cv-header {
+        margin-bottom: 10px;
+    }
+    
+    .cv-embed-container {
+        height: auto;
+        min-height: auto;
+        border: none;
+    }
+}
+</style>

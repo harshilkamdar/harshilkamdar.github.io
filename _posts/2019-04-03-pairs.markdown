@@ -1,0 +1,47 @@
+---
+published: true
+title: Co-moving Pairs Catalog
+layout: post
+date: 2019-04-03
+tags: [stars, pairs]
+---
+
+The associated catalogs from Kamdar+ (2019) on co-moving pairs in Gaia DR2 + LAMOST DR4 are [here](https://harshilkamdar.github.io/files/pairs_star1.fits) and [here](https://harshilkamdar.github.io/files/pairs_star2.fits). The two separate files have identical columns and list properties for the individual stars in the pair. 
+
+The columns in these files are: 
+
+1. __gidp__: Gaia DR2 ID
+2. __xp__: Galactocentric X [kpc]
+3. __yp__: Galactocentric Y [kpc]
+4. __zp__: Galactocentric Z [kpc]
+5. __vxp__: Galactocentric VX [km/s]
+6. __vyp__: Galactocentric VY [km/s]
+7. __vzp__: Galactocentric VZ [km/s]
+8. __rap__: RA [deg]
+9. __decp__: Declination [deg]
+10. __parallaxp__: Parallax [mas]
+11. __pmrap__: Proper Motion (RA) [mas/yr]
+12. __pmdecp__: Proper Motion (Dec) [mas/yr]
+13. __rvp__: Radial Velocity [km/s]
+14. __Gmagp__: G Magnitude [mag]
+15. __bp_rpp__: BP-RP Color [mag]
+16. __obsidp__: LAMOST Observation ID
+17. __snrup__: SNR in U-band
+18. __snrgp__: SNR in G-band
+19. __snrrp__: SNR in R-band
+20. __snrip__: SNR in I-band
+21. __snrzp__: SNR in Z-band
+22. __teffp__: LAMOST Effective Temperature [K]
+23. __teff_errp__: LAMOST Effective Temperature Error [K]
+24. __loggp__: log g [log cgs]
+25. __fehp__: [Fe/H] [dex]
+26. __feherrp__: Error in [Fe/H] [dex]
+27. __dr__: 3D Separation [kpc]
+28. __dv__: 3D Velocity Difference [km/s]
+29. __conn__: Connectivity (2=mutually exclusive)
+30. __dfeh__: Difference in [Fe/H] for pair [dex]
+31. __dteff__: Difference in Effective Temperature for pair [dex]
+32. __ruwe__: RUWE 
+33. __nvs__: Number of Visibility Periods
+34. __rvnbs__: Number of Radial Velocity Transits
+35. __dists__: Distance to Star [pc]
